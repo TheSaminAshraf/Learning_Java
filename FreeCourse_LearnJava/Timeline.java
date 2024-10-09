@@ -1,4 +1,3 @@
-package FreeCourse_LearnJava;
 // Commenting Code
 
 // When comments are short we use the single-line syntax.
@@ -6,6 +5,7 @@ package FreeCourse_LearnJava;
 // Another type of commenting option is the Javadoc comment which is represented by /** and */.
 // Javadoc comments are used to create documentation for APIs (Application Programming Interfaces).
 // These are typically written before the declaration of fields, methods and classes.
+package FreeCourse_LearnJava;
 public class Timeline {
     public static void main(String[] args) {
         System.out.println("Hello Java!");
@@ -17,4 +17,4 @@ public class Timeline {
         His favorite number is the square root of 2!*/
         System.out.println("You are a fun language!");
     }
-  }
+}

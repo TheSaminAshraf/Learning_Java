@@ -1,3 +1,4 @@
+package FreeCourse_LearnJava;
 // Introduction to Java
 
 // Java files have a .java extension.

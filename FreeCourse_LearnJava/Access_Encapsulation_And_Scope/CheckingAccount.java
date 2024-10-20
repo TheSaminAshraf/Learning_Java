@@ -40,11 +40,25 @@
 // Mutator methods, or “setters”, often are void methods — they don’t return anything, they just
 // reset the value of an existing variable.
 // Similarly, they often have one parameter that is the same type as the variable they’re trying to change.
+
+// Other Private Methods
+// private methods are often helper methods — that is to say that they’re methods that other, bigger methods use.
+
+// Review
+// Main takeaways:
+// The public and private keywords are used to define what parts of code have access to other classes,
+// methods, constructors, and instance variables.
+// Encapsulation is a technique used to keep implementation details hidden from other classes.
+// Its aim is to create small bundles of logic.
+// The this keyword can be used to designate the difference between instance variables and local variables.
+// Local variables can only be used within the scope that they were defined in.
+// The this keyword can be used to call methods when writing classes.
 package FreeCourse_LearnJava.Access_Encapsulation_And_Scope;
 public class CheckingAccount{
-    public String name;
+    private String name;
     private int balance;
     private String id;
+    private double interestRate;
     
     public CheckingAccount(String inputName, int inputBalance, String inputId){
       name = inputName;
@@ -72,6 +86,15 @@ public class CheckingAccount{
       balance = newBalance;
     }
 
+    public void getAccountInformation(){
+      System.out.println("Money in account: " + this.getBalance());
+      System.out.println("Next Month's Interest: " + this.calculateNextMonthInterest());
+    }
+
+    private double calculateNextMonthInterest() {
+      return this.balance * this.interestRate;
+    }
+
 }
 
 /*
@@ -87,6 +110,7 @@ public class Bank{
     System.out.println(accountOne.getBalance());
     accountOne.setBalance(5000);
     System.out.println(accountOne.getBalance());
+    accountOne.getAccountInformation();
   }
 
 }

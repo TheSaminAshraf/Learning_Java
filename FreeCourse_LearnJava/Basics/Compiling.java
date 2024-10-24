@@ -10,7 +10,7 @@
 // An unsuccessful compilation produces a list of errors.
 // No .class file is made until all the errors are corrected and the compile command is run again.
 // Using the terminal command "ls" (short for "list") lists all the files in the directory.
-package FreeCourse_LearnJava;
+package FreeCourse_LearnJava.Basics;
 public class Compiling {
     public static void main(String[] args) {
         System.out.println("Java is a class-based language.");

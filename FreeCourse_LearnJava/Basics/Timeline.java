@@ -5,7 +5,7 @@
 // Another type of commenting option is the Javadoc comment which is represented by /** and */.
 // Javadoc comments are used to create documentation for APIs (Application Programming Interfaces).
 // These are typically written before the declaration of fields, methods and classes.
-package FreeCourse_LearnJava;
+package FreeCourse_LearnJava.Basics;
 public class Timeline {
     public static void main(String[] args) {
         System.out.println("Hello Java!");

@@ -8,7 +8,7 @@
 // and semicolons mark the end of a statement.
 // Java is a compiled language.
 // Compiling catches mistakes in our code and compilers transform code into an executable class.
-package FreeCourse_LearnJava;
+package FreeCourse_LearnJava.Basics;
 public class Review {
     public static void main(String[] args)  {
         // The main method executes the tasks of the class

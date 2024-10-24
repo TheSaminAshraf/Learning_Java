@@ -1,6 +1,6 @@
 // Print Statements
 
-package FreeCourse_LearnJava;
+package FreeCourse_LearnJava.Basics;
 public class HelloYou {
   public static void main(String[] args) {
     // This is a print statement.
